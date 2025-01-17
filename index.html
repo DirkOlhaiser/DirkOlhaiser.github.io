@@ -1,27 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>My test page</title>
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <h1>Diebold is cool</h1>
-    <img src="images/Diebold-Logo.svg" alt="The Firefox logo: a flaming fox surrounding the Earth.">
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Mein Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">Über mich</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projekte</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Kenntnisse</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <p>At Diebold, we’re a global community of</p>
+    <div class="container mt-5">
+        <section id="about">
+            <h2>Über mich</h2>
+            <p>Hier kannst du Informationen über dich hinzufügen.</p>
+        </section>
 
-    <ul> <!-- changed to list in the tutorial -->
-      <li>technologists</li>
-      <li>thinkers</li>
-      <li>builders</li>
-    </ul>
+        <section id="projects" class="mt-5">
+            <h2>Projekte</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Projekt 1: Beschreibung</li>
+                <li class="list-group-item">Projekt 2: Beschreibung</li>
+                <li class="list-group-item">Projekt 3: Beschreibung</li>
+            </ul>
+        </section>
 
-    <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
+        <section id="skills" class="mt-5">
+            <h2>Kenntnisse</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Programmiersprache 1</li>
+                <li class="list-group-item">Programmiersprache 2</li>
+                <li class="list-group-item">Framework 1</li>
+            </ul>
+        </section>
+    </div>
 
-    <p>Read the <a href="https://www.hsk.com">Diebold Page</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
-    <button>Change user</button>
-    <script src="scripts/main.js"></script>
-  </body>
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2025 Dein Name. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
