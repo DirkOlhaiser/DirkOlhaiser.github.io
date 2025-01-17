@@ -6,7 +6,7 @@ This repository contains the source code for my personal portfolio website. The 
 
 You can view my portfolio website by visiting the following URL:
 
-[https://DirkOlhaiser.github.io/portfolio](https://DirkOlhaiser.github.io/portfolio)
+[https://DirkOlhaiser.github.io/portfolio](https://dirkolhaiser.github.io/Portfolio)
 
 ## Content
 
