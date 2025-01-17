@@ -1,51 +1,30 @@
-# My Portfolio
+# Portfolio
 
-This is my personal portfolio showcasing my resume, projects, and programming skills. The website is created using HTML, CSS, and Bootstrap, and is hosted via GitHub Pages.
+This repository contains the source code for my personal portfolio website. The website showcases my resume, projects, and programming skills.
 
-## Overview
+## Access the Website
 
-- [About Me](#about-me)
-- [Projects](#projects)
-- [Skills](#skills)
+You can view my portfolio website by visiting the following URL:
 
-## About Me
+[https://DirkOlhaiser.github.io/portfolio](https://DirkOlhaiser.github.io/portfolio)
 
-Here you can add information about yourself and your professional background.
+## Content
 
-## Projects
+The portfolio website includes the following sections:
 
-List of my projects:
+- **About Me**: Information about my background and professional experience.
+- **Curriculum**: Bullet points of my studies and work experience.
+- **Knowledge**: Bullet points of my programming languages and skills.
+- **Projects**: Descriptions of my projects.
 
-- **Project 1**: Short description of the project.
-- **Project 2**: Short description of the project.
-- **Project 3**: Short description of the project.
+## Technologies Used
 
-## Skills
-
-My programming skills include:
-
-- Programming Language 1
-- Programming Language 2
-- Framework 1
-
-## Installation
-
-If you want to run this project locally, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/YourUsername/my-portfolio.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd my-portfolio
-    ```
-3. Open the `index.html` file in your browser.
+The website is built using HTML, CSS, and Bootstrap.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License.
 
 ---
 
-This portfolio was created with ❤️ by [Your Name](https://github.com/YourUsername).
+Created with ❤️ by [Dirk Olhaiser](https://github.com/DirkOlhaiser)

@@ -1,53 +1,76 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mein Portfolio</title>
+    <title>Portfolio</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Mein Portfolio</a>
+        <a class="navbar-brand" href="#">Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#about">Über mich</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projekte</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Kenntnisse</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#curriculum">Curriculum</a></li>
+                <li class="nav-item"><a class="nav-link" href="#knowledge">Knowledge</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
             </ul>
         </div>
     </nav>
 
     <div class="container mt-5">
         <section id="about">
-            <h2>Über mich</h2>
-            <p>Hier kannst du Informationen über dich hinzufügen.</p>
+            <h2>About Me</h2>
+            <p>My name is Dirk and I am 26 years old. I am currently a software developer at Diebold GmbH & Co. focusing on embedded software development, circuit board design, web development and data science. I have studied electrical engineering and information theory at University of Stuttgart.</p>
         </section>
 
-        <section id="projects" class="mt-5">
-            <h2>Projekte</h2>
+        <section id="curriculum" class="mt-5">
+            <h2>Curriculum</h2>
             <ul class="list-group">
-                <li class="list-group-item">Projekt 1: Beschreibung</li>
-                <li class="list-group-item">Projekt 2: Beschreibung</li>
-                <li class="list-group-item">Projekt 3: Beschreibung</li>
+                <li class="list-group-item">2008-2017: Abitur at Gymnasium Hechingen</li>
+                <li class="list-group-item">2017-2021: Studied B. Sc. Electrical Engineering and Information Theory at University of Stuttgart</li>
+                <li class="list-group-item">2018-2021: Assistant scientist at University of Stuttgart (Institute for Large Area Microelectronics)</li>
+                <li class="list-group-item">2021 - present: Work at Diebold GmbH & Co. as a software developer focusing on embedded software development</li>
+                <li class="list-group-item">2024 - 2025: Certificate program in embedded software developemnt at DHBW Heilbronn</li>
             </ul>
         </section>
 
-        <section id="skills" class="mt-5">
-            <h2>Kenntnisse</h2>
+        <section id="knowledge" class="mt-5">
+            <h2>Knowledge</h2>
             <ul class="list-group">
-                <li class="list-group-item">Programmiersprache 1</li>
-                <li class="list-group-item">Programmiersprache 2</li>
-                <li class="list-group-item">Framework 1</li>
+                <li class="list-group-item">Programming in C / C++: Visual Studio, Visual Studio Code, QT. Control software for machines, UI, ... OS: Windows, Linux</li>
+                <li class="list-group-item">Programming in Python: Django, Flask, Data Science libs (Pandas, Numpy, matplot)</li>
+                <li class="list-group-item">Circuit Board Design: KiCad</li>
+                <li class="list-group-item">IT Administration</li>
+                <li class="list-group-item">Programming of Web Servers (Front and Backend, Flask / Django)</li>
+                <li class="list-group-item">Design and assembly of control cabinets</li>
+                <li class="list-group-item">Design, creation and programming of proprietary microcontroller boards and single board computers</li>
+                <li class="list-group-item">Interfacing and integrating sensors, actors, motors, safety features in PCs, uCs and SBCs</li>
+                <li class="list-group-item">Fluent languages: German, English, Russian</li>
+                <li class="list-group-item">Knowledge in Industrial Ethernet (e.g EtherCAT) and other communication protocols (e.g. CAN/CanOpen, RS232, I2C, ...)</li>
+                <li class="list-group-item">Basics in PLC Progrmming</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="mt-5">
+            <h2>Projects for Diebold GmbH & Co.</h2>
+            <ul class="list-group">
+                <li class="list-group-item">US1100 SmartTouch: Design and programming of the US1100 (Shrinking device) control system and Display (SBC + QT + C++)</li>
+                <li class="list-group-item">UB30 Balancing system: Programming of the control software for the balancing system in C++ on IPC</li>
+                <li class="list-group-item">Internal servers: proprietary web servers for internal use</li>
+                <li class="list-group-item">Drill Unit and Automation: A Drill unit for compensating unbalances and integration of Balancer Automation and Drillunit in a fully automated machine</li>
+                <li class="list-group-item">PLC Programming for motor control for customers</li>
+                <!-- Add more projects as needed -->
             </ul>
         </section>
     </div>
 
     <footer class="bg-dark text-white text-center py-3 mt-5">
-        <p>&copy; 2025 Dein Name. Alle Rechte vorbehalten.</p>
+        <p>&copy; 2025 Dirk Olhaiser. All rights reserved.</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
